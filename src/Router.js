@@ -4,6 +4,7 @@ import MusicaComponent from './components/MusicaComponent.vue';
 import { createRouter, createWebHistory } from 'vue-router';
 import CicloVida from './components/CicloVida.vue'
 import DirectivasComponent from './components/DirectivasComponent.vue'
+import ParImpar from './components/ParImpar'
 
 //neceesitamos un array con las rutas de navegacion
 
@@ -12,7 +13,8 @@ const myRoutes = [
     {path: "/cine", component: CineComponent},
     {path: "/musica", component: MusicaComponent},
     {path: "/ciclovida", component: CicloVida},
-    {path: "/directivas", component: DirectivasComponent}
+    {path: "/directivas", component: DirectivasComponent},
+    {path: "/parimpar", component: ParImpar}
     
 
 ]
