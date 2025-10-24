@@ -40,5 +40,5 @@ export default ({
 </script>
 
 <style>
-    @import './CicloVida.vue';
+    @import './../assets/css/estilos.css';
 </style>

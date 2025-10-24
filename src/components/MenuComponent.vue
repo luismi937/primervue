@@ -8,8 +8,13 @@
       <li>
         <router-link to="/musica">Música</router-link>
       </li>
+
          <li>
         <router-link to="/ciclovida">Ciclo Vida</router-link>
+      </li>
+      
+        <li>
+        <router-link to="/directivas">Directivas</router-link>
       </li>
     </ul>
   </div>
