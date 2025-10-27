@@ -5,6 +5,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import CicloVida from './components/CicloVida.vue'
 import DirectivasComponent from './components/DirectivasComponent.vue'
 import ParImpar from './components/ParImpar'
+import PropiedadConmutada from './components/PropiedadConmutada.vue';
+import MetodosFIlters from './components/MetodosFIlters.vue';
 
 //neceesitamos un array con las rutas de navegacion
 
@@ -14,11 +16,13 @@ const myRoutes = [
     {path: "/musica", component: MusicaComponent},
     {path: "/ciclovida", component: CicloVida},
     {path: "/directivas", component: DirectivasComponent},
-    {path: "/parimpar", component: ParImpar}
-    
+    {path: "/parimpar", component: ParImpar},
+    {path: "/propiedad", component: PropiedadConmutada},
+    {path: "/metodos", component: MetodosFIlters}
+
 
 ]
-//creamos una variable para el router indicando el tipo de navegacion y las rutas 
+//creamos una variable para el router indicando el tipo de navegacion y las rutas
 const router = createRouter({
     history: createWebHistory(),
     routes: myRoutes
